@@ -580,7 +580,7 @@ denoted by $Q$.
 
 We defined a **distance measure** based on **Kullback-Leibler divergence** to quantify the **extent of model violations:**
 
-$$D = \log\left(1 + \int_{\mathbb{R}^{n}}\log\frac{p(\boldsymbol{e})}{q(\boldsymbol{e})}p(\boldsymbol{e})d\boldsymbol{e}\right).$$
+$$D = \log\left(1 + \int_{\mathbb{R}^{n}}\log\frac{p(\hat{\boldsymbol{e}})}{q(\hat{\boldsymbol{e}})}p(\hat{\boldsymbol{e}})d\hat{\boldsymbol{e}}\right).$$
 
 :::
 
@@ -864,7 +864,7 @@ bind_rows(dat_dist_1, dat_dist_2, dat_dist_3, dat_dist_4) %>%
 We train a **computer vision model** to estimate $D$ with **64,000 simulated residual plots**:
 
 
-$$\widehat{D} = f_{CV}(V_{h \times w}(\boldsymbol{e}, \boldsymbol{\hat{y}})),$$
+$$\widehat{D} = f_{CV}(V_{h \times w}(\hat{\boldsymbol{e}}, \boldsymbol{\hat{y}})),$$
 
 where $V_{h \times w}(.)$ generates an $h \times w$ image, and  $f_{CV}(.)$ predicts a non-negative distance.
 

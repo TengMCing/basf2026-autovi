@@ -822,7 +822,7 @@ p = P(K \geq k) = \sum_{j=k}^{N} \binom{N}{j}
 <div class="callout-body">
 <div class="callout-content">
 <p>We defined a <strong>distance measure</strong> based on <strong>Kullback-Leibler divergence</strong> to quantify the <strong>extent of model violations:</strong></p>
-<p><span class="math display">D = \log\left(1 + \int_{\mathbb{R}^{n}}\log\frac{p(\boldsymbol{e})}{q(\boldsymbol{e})}p(\boldsymbol{e})d\boldsymbol{e}\right).</span></p>
+<p><span class="math display">D = \log\left(1 + \int_{\mathbb{R}^{n}}\log\frac{p(\hat{\boldsymbol{e}})}{q(\hat{\boldsymbol{e}})}p(\hat{\boldsymbol{e}})d\hat{\boldsymbol{e}}\right).</span></p>
 </div>
 </div>
 </div>
@@ -916,7 +916,7 @@ p = P(K \geq k) = \sum_{j=k}^{N} \binom{N}{j}
 <section id="estimation-of-d" class="slide level2">
 <h2>Estimation of <span class="math inline">D</span></h2>
 <p>We train a <strong>computer vision model</strong> to estimate <span class="math inline">D</span> with <strong>64,000 simulated residual plots</strong>:</p>
-<p><span class="math display">\widehat{D} = f_{CV}(V_{h \times w}(\boldsymbol{e}, \boldsymbol{\hat{y}})),</span></p>
+<p><span class="math display">\widehat{D} = f_{CV}(V_{h \times w}(\hat{\boldsymbol{e}}, \boldsymbol{\hat{y}})),</span></p>
 <p>where <span class="math inline">V_{h \times w}(.)</span> generates an <span class="math inline">h \times w</span> image, and <span class="math inline">f_{CV}(.)</span> predicts a non-negative distance.</p>
 
 <img data-src="index_files/figure-revealjs/unnamed-chunk-12-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:85.0%"></section>
