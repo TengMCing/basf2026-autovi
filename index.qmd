@@ -1221,8 +1221,6 @@ Buja, A., Cook, D., Hofmann, H., Lawrence, M., Lee, E. K., Swayne, D. F., & Wick
 :::
 
 
-<br>
-
 ::: {.nonincremental}
 
 `r fontawesome::fa_i("github")` [tengmcing](https://github.com/TengMCing)
