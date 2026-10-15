@@ -1212,6 +1212,8 @@ Li, W., Cook, D., Tanaka, E., VanderPlas, S., & Ackermann, K. (2026). Automated 
 
 Li, W., Cook, D., Tanaka, E., VanderPlas, S., & Ackermann, K. (2024). Automated Assessment of Residual Plots with Computer Vision Models. arXiv preprint arXiv:2411.01001.
 
+Li, W., Cook, D., Tanaka, E., & VanderPlas, S. (2024). A plot is worth a thousand tests: Assessing residual diagnostics with the lineup protocol. Journal of Computational and Graphical Statistics, 33(4), 1497-1511.
+
 Buja, A., Cook, D., Hofmann, H., Lawrence, M., Lee, E. K., Swayne, D. F., & Wickham, H. (2009). Statistical inference for exploratory data analysis and model diagnostics. Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 367(1906), 4361-4383.
 
 :::
